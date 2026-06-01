@@ -9,10 +9,9 @@
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #fafafa;
+    background: #dedede;
   }
 
-  /* Header dengan gambar + warna */
   header {
     position: fixed;
     top: 0; left: 0;
@@ -22,15 +21,13 @@
     transition: all 0.5s ease;
     display: flex;
     flex-direction: column;
-    justify-content: right;   /* isi header di tengah */
-    align-items: right;       /* logo + teks di tengah */
+    justify-content: right;   
+    align-items: right;     
     text-align: right;
     background-color: #5bb6ff;
     z-index: 1000;
     overflow: hidden;
   }
-
-  /* Background gambar transparan */
   header::before {
     content: "";
     position: absolute;
@@ -43,10 +40,10 @@
   }
 
   .logo {
-    width: 500px;   /* besar sebelum scroll */
+    width: 500px;   
     height: auto;
     display: block;
-    margin: 0;      /* hilangkan margin auto */
+    margin: 0;      
     transition: all 0.5s ease;
   }
 
@@ -54,10 +51,10 @@
   header.scrolled {
     padding: 10px;
     flex-direction: row;
-    justify-content: flex-start; /* isi rata kiri */
-    align-items: center;         /* logo + teks sejajar vertikal */
+    justify-content: flex-start; 
+    align-items: center;         
     text-align: left;
-    padding-left: 20px;          /* jarak dari tepi kiri */
+    padding-left: 20px;          
   }
 
   header.scrolled::before {
@@ -109,7 +106,22 @@
     direction: rtl;
     text-align: right;
   }
-
+  
+  .dalil {
+    background-color: #f3f1ed;
+      border-left: 6px solid #4a5d4e;
+      padding: 20px;
+      margin: 30px 0;
+      border-radius: 8px;
+  }
+  
+  footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #777;
+    }
+    
   /* Responsif untuk layar kecil */
   @media (max-width: 768px) {
     .logo {
@@ -150,18 +162,27 @@
       </figure>
       <h2>Hadist & Dalil tentang Ikhlas</h2>
       <p>Allah ﷻ berfirman:</br></p>
-      <p class="arabic">
+      <div class="dalil">
+        <p class="arabic">
 وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ       لَهُ الدِّينَ حُنَفَاءَ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ وَذَلِكَ دِينُ الْقَيِّمَةِ </p>     </br>
 
           Artinya:  
           "Padahal mereka tidak diperintah kecuali supaya menyembah Allah dengan memurnikan ketaatan kepada-Nya dalam (menjalankan) agama, dengan lurus, dan supaya mereka mendirikan shalat serta menunaikan zakat. Dan yang demikian itulah agama yang lurus."(QS. Al-Bayyinah: 5)</br>
-          Ayat ini menegaskan bahwa inti dari seluruh ibadah adalah keikhlasan. Shalat, zakat, dan ibadah lainnya tidak akan bernilai jika dilakukan untuk selain Allah. Ikhlas adalah syarat utama agar amal diterima.
-          Rasulullah ﷺ bersabda:</br> </p> 
-          <p class="arabic">
+          </div>
+       </p>
+       <p>
+          Ayat ini menegaskan bahwa seluruh umat, baik Yahudi, Nasrani, maupun Muslim, sejatinya hanya diperintahkan untuk mengesakan Allah dengan penuh keikhlasan. Ikhlas berarti memurnikan niat ibadah semata-mata untuk mencari ridha Allah, bukan karena riya atau kepentingan duniawi. Sikap hanif di sini bermakna istiqamah dalam tauhid, menolak segala bentuk kemusyrikan, sebagaimana ajaran Nabi Ibrahim.</p>
+          <p>
+          Selain itu, ayat ini menekankan dua amal pokok salat sebagai bentuk ketaatan kepada Allah dan zakat sebagai wujud kepedulian sosial. Salat melatih jiwa untuk tunduk dan taat, sementara zakat membersihkan harta dan menumbuhkan solidaritas. Kedua ibadah ini menjadi simbol keseimbangan antara hubungan manusia dengan Allah dan hubungan sesama manusia. Dengan ikhlas, salat, dan zakat, seseorang menjalankan agama yang lurus, yaitu Islam, yang membawa kebahagiaan dunia dan akhirat.
+         Dan Rasulullah ﷺ  pernah bersabda:</br> </p> 
+          <div class="dalil">
+            <p class="arabic">
 إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى </p>
           <p>
           Artinya:  
-          "Sesungguhnya amal itu tergantung niatnya, dan setiap orang akan mendapatkan sesuai dengan apa yang ia niatkan." (HR. Bukhari & Muslim)</br>Hadits ini menunjukkan bahwa niat adalah ruh dari amal. Ikhlas menjadikan amal bernilai di sisi Allah. Tanpa niat yang benar, amal bisa kehilangan makna meskipun tampak besar di mata manusia.</p>
+          "Sesungguhnya amal itu tergantung niatnya, dan setiap orang akan mendapatkan sesuai dengan apa yang ia niatkan." (HR. Bukhari & Muslim)</p>
+          </div>
+          <p></br>Hadis ini menegaskan bahwa nilai setiap amal ibadah atau perbuatan sangat bergantung pada niat yang melatarbelakanginya. Artinya, bukan sekadar tindakan lahiriah yang dinilai Allah, melainkan tujuan dan keikhlasan hati di baliknya. Jika seseorang beramal dengan niat ikhlas karena Allah, maka amal itu bernilai ibadah dan mendatangkan pahala. Sebaliknya, jika niatnya untuk riya, mencari pujian, atau tujuan duniawi semata, maka amal tersebut tidak bernilai di sisi Allah. Hadis ini menjadi dasar penting dalam Islam bahwa niat adalah ruh dari setiap amal, sehingga seorang Muslim harus selalu memperbaiki niatnya agar amal yang dilakukan benar-benar menjadi jalan menuju ridha Allah.</p>
           <h2>Bentuk Ikhlas</h2>
           <p>
             Ikhlas dapat diwujudkan dalam tiga dimensi utama:
